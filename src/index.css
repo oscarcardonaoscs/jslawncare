@@ -1,13 +1,80 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --navbar-bg-color: #e6f6e6;
+}
+
+.navbar-custom {
+  background-color: var(--navbar-bg-color) !important;
+}
+
+.navbar .quote-link {
+  color: #008000 !important; /* Forzar el color verde */
+}
+
+.navbar .quote-link:hover {
+  color: #005500 !important; /* Forzar el color verde oscuro al hacer hover */
+}
+/* Estilos generales */
+.outdoor-section {
+  background-color: #e6f6e6;
+  padding: 60px 20px;
+}
+
+.outdoor-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #1b1b1b;
+}
+
+/* Estilos para los servicios */
+.service {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.service-icon {
+  font-size: 32px;
+  color: #178a17;
+  margin-right: 15px;
+}
+
+/* Estilos para las imágenes */
+.image-stack {
+  position: relative;
+  display: inline-block;
+}
+
+.img-back {
+  width: 280px;
+  border-radius: 8px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+  transform: rotate(-10deg);
+}
+
+.img-front {
+  width: 280px;
+  border-radius: 8px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  transform: rotate(5deg);
 }

@@ -1,0 +1,30 @@
+.contact-section {
+  background-color: #008000; /* Fondo verde */
+  padding: 50px 20px;
+}
+
+.contact-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.submit-btn {
+  background-color: #ffffff; /* Botón blanco */
+  color: #008000; /* Texto verde */
+  border: 2px solid #ffffff;
+  width: 100%;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.submit-btn:hover {
+  background-color: #005500; /* Verde más oscuro */
+  color: #ffffff;
+}

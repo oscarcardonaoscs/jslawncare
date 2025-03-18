@@ -1,0 +1,7 @@
+.card-img-top {
+  height: 300px; /* Ajusta la altura de la imagen */
+  object-fit: contain; /* Asegura que la imagen se vea completa */
+  width: 100%; /* Ocupa todo el ancho de la tarjeta */
+  border-radius: 8px; /* Opcional: Bordes redondeados */
+  background-color: #f8f9fa; /* Opcional: Fondo si la imagen no ocupa todo el espacio */
+}

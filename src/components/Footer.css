@@ -1,0 +1,14 @@
+.footer {
+  background-color: #333; /* Color de fondo oscuro */
+  color: white; /* Texto en color blanco */
+  padding: 20px 0; /* Espaciado en el interior del footer */
+}
+
+.footer a {
+  color: #008000; /* Color de los enlaces */
+  text-decoration: none; /* Quitar subrayado en los enlaces */
+}
+
+.footer a:hover {
+  text-decoration: underline; /* Subrayar los enlaces al pasar el cursor */
+}
